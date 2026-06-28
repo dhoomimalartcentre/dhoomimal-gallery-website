@@ -49,7 +49,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 48px 0;
+  padding: 80px 0 60px;
 }
 .hero-h1 {
   font-family: 'Cormorant Garamond', serif;
@@ -283,13 +283,13 @@ img { display: block; max-width: 100%; }
 }
 .footer-big {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(36px, 5vw, 68px);
-  font-weight: 300; line-height: 1.05; margin-bottom: 24px;
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 300; line-height: 1.1; margin-bottom: 20px;
 }
 .footer-addr { font-size: 13px; color: #6B6660; line-height: 1.8; }
 .footer-nav-grid {
-  display: grid; grid-template-columns: repeat(3,1fr);
-  gap: 16px; align-self: end;
+  display: grid; grid-template-columns: repeat(2,1fr);
+  gap: 16px; align-self: start;
 }
 .footer-nav-col { display: flex; flex-direction: column; gap: 10px; }
 .footer-nav-col a { font-size: 13px; color: #6B6660; transition: color 0.2s; }
