@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const ARTISTS = [
   { name: 'M.F. Husain', origin: 'India', medium: 'Oil, Acrylic', initial: 'H', bio: 'One of India&#39;s most celebrated painters, known for his bold figurative work and vibrant use of colour.' },
-  { name: 'Ram Kumar', origin: 'India', medium: 'Oil on Canvas', initial: 'R', bio: 'A leading figure in Indian modernism, Ram Kumar's landscapes are meditations on memory and solitude.' },
+  { name: 'Ram Kumar', origin: 'India', medium: 'Oil on Canvas', initial: 'R', bio: 'A leading figure in Indian modernism, Ram Kumars landscapes are meditations on memory and solitude.' },
   { name: 'Akbar Padamsee', origin: 'India', medium: 'Oil, Watercolour', initial: 'A', bio: 'Pioneer of the Progressive Artists Group, known for his poetic abstraction and philosophical depth.' },
   { name: 'Manjit Bawa', origin: 'India', medium: 'Oil on Canvas', initial: 'B', bio: 'Renowned for luminous colour fields and figures drawn from Sufi and Punjabi traditions.' },
   { name: 'Krishen Khanna', origin: 'India', medium: 'Oil, Gouache', initial: 'K', bio: 'A humanist painter whose subjects encompass bandwallahs, street life, and the sacred.' },

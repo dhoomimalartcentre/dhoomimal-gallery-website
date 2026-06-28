@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const NEWS = [
-  { title: 'Dhoomimal Gallery Participates in India Art Fair 2024', date: 'February 2024', tag: 'Event', excerpt: 'The gallery presented a carefully curated selection of modern and contemporary works at this year\'s India Art Fair, drawing significant collector attention.' },
-  { title: 'New Acquisition: Major Akbar Padamsee Canvas Joins Permanent Collection', date: 'November 2023', tag: 'Acquisition', excerpt: 'A significant addition to the gallery\'s holdings, this large-format Padamsee canvas from the late 1970s exemplifies the artist\'s mature abstract language.' },
-  { title: '"Roots and Routes" Receives Critical Acclaim', date: 'September 2023', tag: 'Press', excerpt: 'The gallery\'s landmark survey of modern Indian abstraction was widely praised by critics and collectors alike, with full attendance across its six-week run.' },
+  { title: 'Dhoomimal Gallery Participates in India Art Fair 2024', date: 'February 2024', tag: 'Event', excerpt: 'The gallery presented a carefully curated selection of modern and contemporary works at this year\s India Art Fair, drawing significant collector attention.' },
+  { title: 'New Acquisition: Major Akbar Padamsee Canvas Joins Permanent Collection', date: 'November 2023', tag: 'Acquisition', excerpt: 'A significant addition to the gallery\s holdings, this large-format Padamsee canvas from the late 1970s exemplifies the artist\s mature abstract language.' },
+  { title: '"Roots and Routes" Receives Critical Acclaim', date: 'September 2023', tag: 'Press', excerpt: 'The gallery\s landmark survey of modern Indian abstraction was widely praised by critics and collectors alike, with full attendance across its six-week run.' },
 ]
 
 export default function News() {
