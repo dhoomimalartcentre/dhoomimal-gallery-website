@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="nav">
-        <Link href="/" className="nav-logo">dhoomimal</Link>
+        <Link href="/" className="nav-logo" style={{textTransform:"lowercase"}}>dhoomimal</Link>
         <ul className="nav-links">
           {links.map(l => <li key={l.href}><Link href={l.href}>{l.label}</Link></li>)}
         </ul>

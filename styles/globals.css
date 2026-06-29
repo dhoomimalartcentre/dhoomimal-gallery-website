@@ -24,7 +24,8 @@ img { display: block; max-width: 100%; }
 .nav-logo {
   font-family: 'Inter', sans-serif;
   font-size: 14px; font-weight: 400;
-  color: #1A1814; letter-spacing: 0.01em;
+  color: #1A1814; letter-spacing: 0;
+  text-transform: lowercase;
 }
 .nav-links { display: flex; gap: 24px; list-style: none; }
 .nav-links a { font-size: 13px; color: #1A1814; transition: opacity 0.2s; }
@@ -39,7 +40,7 @@ img { display: block; max-width: 100%; }
 /* HERO - single column white, matches Heynar Mastow exactly */
 .hero {
   min-height: 100vh;
-  padding: 56px 32px 0;
+  padding: 56px 40px 0;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -49,15 +50,17 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 80px 0 60px;
+  padding: 60px 0 40px;
+  min-height: calc(100vh - 300px);
 }
 .hero-h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(52px, 8vw, 110px);
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(56px, 9vw, 120px);
   font-weight: 300;
   line-height: 1.0;
   text-align: right;
   color: #1A1814;
+  letter-spacing: -0.02em;
 }
 .hero-bottom-row {
   display: grid;
